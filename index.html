@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="main.css" />
+        <title>Page d'accueil</title>
+    </head>
+    <body>
+        <header class="header">
+            <section class="header__nav-bar">
+                <div class="header__logo">
+                    <img
+                        src="./Media/logo.png"
+                        alt=""
+                        class="header__logo-image"
+                    />
+                </div>
+                <nav class="header__navigation">
+                    <ul class="header__menu">
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">Accueil</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">A propos</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">Services</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="" class="header__menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__actions">
+                    <div class="header__search">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            x="0px"
+                            y="0px"
+                            width="100"
+                            height="100"
+                            viewBox="0 0 24 24"
+                            class="header__search-icon"
+                        >
+                            <path
+                                d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"
+                            ></path>
+                        </svg>
+                        <input
+                            type="text"
+                            class="header__search-input"
+                            placeholder="Search something here!"
+                        />
+                    </div>
+                    <button class="header__login-btn">Login</button>
+                </div>
+            </section>
+
+            <section class="header__banner">
+                <div class="header__banner-content">
+                    <h1 class="header__banner-title">One more friend</h1>
+                    <h2 class="header__banner-subtitle">Thousand more fun!</h2>
+                    <p class="header__banner-text">
+                        Having a pet means you have more joy, a new friend, a
+                        happy person who will always be with you to have fun. We
+                        have 200+ different pets that can meet your needs!
+                    </p>
+                    <div class="header__banner-buttons">
+                        <button
+                            class="header__banner-button header__banner-button--primary"
+                        >
+                            View Intro
+                            <img
+                                src="./Media/play.png"
+                                alt=""
+                                class="header__banner-icon"
+                            />
+                        </button>
+                        <button
+                            class="header__banner-button header__banner-button--secondary"
+                        >
+                            Explore Now
+                        </button>
+                    </div>
+                </div>
+                <img
+                    src="https://s3-alpha-sig.figma.com/img/035a/16de/8e1aa9a0522d0cebb4144a5ceda0344a?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NMp0ArPurJzqeT~7kQgr5gz~AnKCaVbfxgEsty5HIr8GznBuO0wzBH0qMpLSFd~bo9-EsY-UliR5dX-80kPJahByGksoK86Y1QMmfUionuHMx4yPIzfcVvkVUbzBCxLN9ieoSeqv6dZkpBX0~iIDb6wNiVOR0gBR0bh0xOVFJktyIsSoGRytHjHyL5XtuX9i1y2KSHS~576vR9R7OOCJm6d0-ESe7NhU0m780lGuubxps0OVI664O4zHQDOjEsAB4AupO-kHBlimRxa2hpZXYmsEV6d9xrmywVOI3t34Kv90CZT9x0s9ya3BnKyQKiX1f1fD8UBDPe-b3eRL5S1h2A__"
+                    alt=""
+                    class="header__banner-image"
+                />
+            </section>
+        </header>
+
+        <main class="main">
+            <section class="main__section">
+                <div class="pets">
+                    <div class="pets__title">
+                        <h1 class="pets__title-main">What's New?</h1>
+                        <h2 class="pets__title-sub">
+                            Take a look at some of our pets
+                        </h2>
+                    </div>
+                    <button class="pets__button">
+                        View more
+                        <img
+                            src="./Media/arrow.png"
+                            alt=""
+                            class="pets__button-arrow"
+                        />
+                    </button>
+                </div>
+
+                <div class="pets__container">
+                    <div class="pets__card">
+                        <img
+                            src="./Media/pet.png"
+                            alt=""
+                            class="pets__card-image"
+                        />
+                        <h1 class="pets__card-title">
+                            MO231 - Pomeranian White
+                        </h1>
+                        <div class="pets__card-characteristic">
+                            <p class="pets__card-gender">
+                                Gene: <strong>Male</strong>
+                            </p>
+                            <p class="pets__card-separator">•</p>
+                            <p class="pets__card-age">
+                                Age: <strong>02 months</strong>
+                            </p>
+                        </div>
+                        <h2 class="pets__card-price">6.900.000 VND</h2>
+                    </div>
+                    <div class="pets__card">
+                        <img
+                            src="./Media/pet.png"
+                            alt=""
+                            class="pets__card-image"
+                        />
+                        <h1 class="pets__card-title">
+                            MO231 - Pomeranian White
+                        </h1>
+                        <div class="pets__card-characteristic">
+                            <p class="pets__card-gender">
+                                Gene: <strong>Male</strong>
+                            </p>
+                            <p class="pets__card-separator">•</p>
+                            <p class="pets__card-age">
+                                Age: <strong>02 months</strong>
+                            </p>
+                        </div>
+                        <h2 class="pets__card-price">6.900.000 VND</h2>
+                    </div>
+                    <div class="pets__card">
+                        <img
+                            src="./Media/pet.png"
+                            alt=""
+                            class="pets__card-image"
+                        />
+                        <h1 class="pets__card-title">
+                            MO231 - Pomeranian White
+                        </h1>
+                        <div class="pets__card-characteristic">
+                            <p class="pets__card-gender">
+                                Gene: <strong>Male</strong>
+                            </p>
+                            <p class="pets__card-separator">•</p>
+                            <p class="pets__card-age">
+                                Age: <strong>02 months</strong>
+                            </p>
+                        </div>
+                        <h2 class="pets__card-price">6.900.000 VND</h2>
+                    </div>
+                    <div class="pets__card">
+                        <img
+                            src="./Media/pet.png"
+                            alt=""
+                            class="pets__card-image"
+                        />
+                        <h1 class="pets__card-title">
+                            MO231 - Pomeranian White
+                        </h1>
+                        <div class="pets__card-characteristic">
+                            <p class="pets__card-gender">
+                                Gene: <strong>Male</strong>
+                            </p>
+                            <p class="pets__card-separator">•</p>
+                            <p class="pets__card-age">
+                                Age: <strong>02 months</strong>
+                            </p>
+                        </div>
+                        <h2 class="pets__card-price">6.900.000 VND</h2>
+                    </div>
+                    <div class="pets__card">
+                        <img
+                            src="./Media/pet.png"
+                            alt=""
+                            class="pets__card-image"
+                        />
+                        <h1 class="pets__card-title">
+                            MO231 - Pomeranian White
+                        </h1>
+                        <div class="pets__card-characteristic">
+                            <p class="pets__card-gender">
+                                Gene: <strong>Male</strong>
+                            </p>
+                            <p class="pets__card-separator">•</p>
+                            <p class="pets__card-age">
+                                Age: <strong>02 months</strong>
+                            </p>
+                        </div>
+                        <h2 class="pets__card-price">6.900.000 VND</h2>
+                    </div>
+                    <div class="pets__card">
+                        <img
+                            src="./Media/pet.png"
+                            alt=""
+                            class="pets__card-image"
+                        />
+                        <h1 class="pets__card-title">
+                            MO231 - Pomeranian White
+                        </h1>
+                        <div class="pets__card-characteristic">
+                            <p class="pets__card-gender">
+                                Gene: <strong>Male</strong>
+                            </p>
+                            <p class="pets__card-separator">•</p>
+                            <p class="pets__card-age">
+                                Age: <strong>02 months</strong>
+                            </p>
+                        </div>
+                        <h2 class="pets__card-price">6.900.000 VND</h2>
+                    </div>
+                    <div class="pets__card">
+                        <img
+                            src="./Media/pet.png"
+                            alt=""
+                            class="pets__card-image"
+                        />
+                        <h1 class="pets__card-title">
+                            MO231 - Pomeranian White
+                        </h1>
+                        <div class="pets__card-characteristic">
+                            <p class="pets__card-gender">
+                                Gene: <strong>Male</strong>
+                            </p>
+                            <p class="pets__card-separator">•</p>
+                            <p class="pets__card-age">
+                                Age: <strong>02 months</strong>
+                            </p>
+                        </div>
+                        <h2 class="pets__card-price">6.900.000 VND</h2>
+                    </div>
+                    <div class="pets__card">
+                        <img
+                            src="./Media/pet.png"
+                            alt=""
+                            class="pets__card-image"
+                        />
+                        <h1 class="pets__card-title">
+                            MO231 - Pomeranian White
+                        </h1>
+                        <div class="pets__card-characteristic">
+                            <p class="pets__card-gender">
+                                Gene: <strong>Male</strong>
+                            </p>
+                            <p class="pets__card-separator">•</p>
+                            <p class="pets__card-age">
+                                Age: <strong>02 months</strong>
+                            </p>
+                        </div>
+                        <h2 class="pets__card-price">6.900.000 VND</h2>
+                    </div>
+                </div>
+                <div class="main__banner">
+                    <img
+                        src="https://s3-alpha-sig.figma.com/img/cc4b/2826/12bf9db02e233aa64a34946d9a9aed4d?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ah~9nX706mpe2vECOI7B4~wzXG7dzxRHob4zCpRPSilOGinbmgP5TnHfopcxp5I~cYjsVDpDoYXrlZtwAM7BiFGjjM92nv8SvDTjKZ8wJc0hwJBc3iV9FOyFhpz7e2ySpitmW81d3JhbgIDg-iozAUmHkgGeD2RbPapDyxCm-Y3MmRsIorD8Mhb-qT1yOhpc7fIMd8Movdat-sLnO5qPcU82mxPE5tENuIoAHL~afXIVL7ybuvHQjK6Ig4vsOv5XvyeYa7bEyHoYBBqB1zkJyxd5tIBQOgoFxHNMH0JTPvFN5giNaV8Xo~EUleXX6URLoGCBX0uEmkdyKmJwSvjKfw__"
+                        alt=""
+                        class="main__banner-image"
+                    />
+                    <div class="main__banner-content">
+                        <h1 class="main__banner-title">One more friend</h1>
+                        <h2 class="main__banner-subtitle">
+                            Thousand more fun!
+                        </h2>
+                        <p class="main__banner-text">
+                            Having a pet means you have more joy, a new friend,
+                            a happy person who will always be with you to have
+                            fun. We have 200+ different pets that can meet your
+                            needs!
+                        </p>
+                        <div class="main__banner-buttons">
+                            <button
+                                class="main__banner-button main__banner-button--primary"
+                            >
+                                View Intro
+                                <img
+                                    src="./Media/play.png"
+                                    alt=""
+                                    class="main__banner-icon"
+                                />
+                            </button>
+                            <button
+                                class="main__banner-button main__banner-button--secondary"
+                            >
+                                Explore Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="actuality">
+                    <div class="actuality__title">
+                        <h1 class="actuality__title-main">What's New?</h1>
+                        <h2 class="actuality__title-sub">
+                            Useful pet knowledge
+                        </h2>
+                    </div>
+                    <button class="actuality__button">
+                        View more
+                        <img
+                            src="./Media/arrow.png"
+                            alt=""
+                            class="pets__button-arrow"
+                        />
+                    </button>
+                </div>
+                <div class="actuality__container">
+                    <div class="actuality__card">
+                        <img
+                            src="https://s3-alpha-sig.figma.com/img/164b/8551/c113c74555b6aeaec9a5b979c2ee53d4?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qUA29CjOj9DJpfHoG1fYxyk~yZMI8RLi-obRPYG~axsWhs46gIsA~T2fjtU-AzZuCbZLOkmYpY9glsQQ3QVmJKpEiIE14spubTOn8FB3alJ2~CueCUCfXTGCv38sjG4j-y~aKzs87w7eWkoM2gahkfmRCa2s7NjntzdZrsakccjSB-CVxz7B3rhY9Fu0GyRhljjIFjFhbG~wkdwCFuOoFoEALWbfW35OvcSeeXNQqrVQ9BAqT2lh7jrQJtYJuDnqBQboJ1yaDM651RZN3vMqyCjA4EMhwpuSmIPAKp0D9omD8kFgVhyz5jzwC0QK6tGZtBy7rhnSoMh9XlsyhWEqCw__"
+                            alt=""
+                            class="actuality__card-image"
+                        />
+                        <h1 class="actuality__card-knowledge">Pet knowledge</h1>
+                        <h2 class="actuality__card-title">
+                            What is a Pomeranian? How to Identify Pomeranian
+                            Dogs
+                        </h2>
+                        <p class="actuality-text">
+                            Dividing a dog's diet may seem simple at first, but
+                            there are some rules you should know so that your
+                            dog can easily absorb the nutrients in the diet. For
+                            those who are just starting to raise dogs,
+                            especially newborn puppies with relatively weak
+                            resistance.
+                        </p>
+                    </div>
+                    <div class="actuality__card">
+                        <img
+                            src="https://s3-alpha-sig.figma.com/img/164b/8551/c113c74555b6aeaec9a5b979c2ee53d4?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qUA29CjOj9DJpfHoG1fYxyk~yZMI8RLi-obRPYG~axsWhs46gIsA~T2fjtU-AzZuCbZLOkmYpY9glsQQ3QVmJKpEiIE14spubTOn8FB3alJ2~CueCUCfXTGCv38sjG4j-y~aKzs87w7eWkoM2gahkfmRCa2s7NjntzdZrsakccjSB-CVxz7B3rhY9Fu0GyRhljjIFjFhbG~wkdwCFuOoFoEALWbfW35OvcSeeXNQqrVQ9BAqT2lh7jrQJtYJuDnqBQboJ1yaDM651RZN3vMqyCjA4EMhwpuSmIPAKp0D9omD8kFgVhyz5jzwC0QK6tGZtBy7rhnSoMh9XlsyhWEqCw__"
+                            alt=""
+                            class="actuality__card-image"
+                        />
+                        <h1 class="actuality__card-knowledge">Pet knowledge</h1>
+                        <h2 class="actuality__card-title">
+                            What is a Pomeranian? How to Identify Pomeranian
+                            Dogs
+                        </h2>
+                        <p class="actuality-text">
+                            Dividing a dog's diet may seem simple at first, but
+                            there are some rules you should know so that your
+                            dog can easily absorb the nutrients in the diet. For
+                            those who are just starting to raise dogs,
+                            especially newborn puppies with relatively weak
+                            resistance.
+                        </p>
+                    </div>
+                    <div class="actuality__card">
+                        <img
+                            src="https://s3-alpha-sig.figma.com/img/164b/8551/c113c74555b6aeaec9a5b979c2ee53d4?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qUA29CjOj9DJpfHoG1fYxyk~yZMI8RLi-obRPYG~axsWhs46gIsA~T2fjtU-AzZuCbZLOkmYpY9glsQQ3QVmJKpEiIE14spubTOn8FB3alJ2~CueCUCfXTGCv38sjG4j-y~aKzs87w7eWkoM2gahkfmRCa2s7NjntzdZrsakccjSB-CVxz7B3rhY9Fu0GyRhljjIFjFhbG~wkdwCFuOoFoEALWbfW35OvcSeeXNQqrVQ9BAqT2lh7jrQJtYJuDnqBQboJ1yaDM651RZN3vMqyCjA4EMhwpuSmIPAKp0D9omD8kFgVhyz5jzwC0QK6tGZtBy7rhnSoMh9XlsyhWEqCw__"
+                            alt=""
+                            class="actuality__card-image"
+                        />
+                        <h1 class="actuality__card-knowledge">Pet knowledge</h1>
+                        <h2 class="actuality__card-title">
+                            What is a Pomeranian? How to Identify Pomeranian
+                            Dogs
+                        </h2>
+                        <p class="actuality-text">
+                            Dividing a dog's diet may seem simple at first, but
+                            there are some rules you should know so that your
+                            dog can easily absorb the nutrients in the diet. For
+                            those who are just starting to raise dogs,
+                            especially newborn puppies with relatively weak
+                            resistance.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <section class="footer__section">
+                <div class="footer__newsletter">
+                    <h1 class="footer__newsletter-title">
+                        Register now so you don't miss our programs
+                    </h1>
+                    <div class="footer__newsletter-input">
+                        <input
+                            type="text"
+                            class="footer__newsletter-field"
+                            placeholder="Enter your Email"
+                        />
+                        <button class="footer__newsletter-button">
+                            Subscribe Now
+                        </button>
+                    </div>
+                </div>
+                <div class="footer__content">
+                    <div class="footer__content-wrapper">
+                        <div class="footer__category">
+                            <ul class="footer__category-list">
+                                <li class="footer__category-item">Home</li>
+                                <li class="footer__category-item">About</li>
+                                <li class="footer__category-item">Services</li>
+                                <li class="footer__category-item">Contact</li>
+                            </ul>
+                        </div>
+                        <div class="footer__social">
+                            <img
+                                src="./Media/facebook.png"
+                                alt="Facebook"
+                                class="footer__social-icon"
+                            />
+                            <img
+                                src="./Media/twitter.png"
+                                alt="Twitter"
+                                class="footer__social-icon"
+                            />
+                            <img
+                                src="./Media/instagram.png"
+                                alt="Instagram"
+                                class="footer__social-icon"
+                            />
+                            <img
+                                src="./Media/youtube.png"
+                                alt="YouTube"
+                                class="footer__social-icon"
+                            />
+                        </div>
+                    </div>
+                    <hr class="footer__divider" />
+                    <div class="footer__bottom">
+                        <p class="footer__copyright">
+                            © 2022 Monito. All rights reserved.
+                        </p>
+                        <img
+                            src="./Media/logo.png"
+                            alt="Logo"
+                            class="footer__logo"
+                        />
+                        <div class="footer__policies">
+                            <p class="footer__policy">Terms of Service</p>
+                            <p class="footer__policy">Privacy Policy</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
