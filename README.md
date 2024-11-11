@@ -6,7 +6,8 @@ Ce projet utilise SASS pour structurer et styliser une page web. Il comprend des
 
 ## Utilisation
 
-Pour compiler les fichiers SCSS en CSS, utilisez les commande suivante :
+Pour compiler les fichiers SCSS en CSS, utilisez les commandes suivantes :
 
 cd scss
+
 sass --watch styles.scss main.css
