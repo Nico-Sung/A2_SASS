@@ -42,11 +42,14 @@
 
         &-button--primary {
             @include mixins.secondary-btn;
+            @include mixins.secondary-btn-hover;
+
             margin-right: 1em;
         }
 
         &-button--secondary {
             @include mixins.main-btn;
+            @include mixins.main-btn-hover;
         }
     }
 }
@@ -66,6 +69,7 @@
 
     &__button {
         @include mixins.secondary-btn;
+        @include mixins.secondary-btn-hover;
         margin-top: 1em;
     }
 
@@ -77,6 +81,12 @@
 
     &__card {
         @include mixins.card;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
 
         &-image {
             @include mixins.card-image;

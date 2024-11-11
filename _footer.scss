@@ -50,6 +50,8 @@
         &-button {
             @extend .footer__newsletter-input;
             @include mixins.main-btn;
+            @include mixins.main-btn-hover;
+
             border-radius: 4.7px;
             width: 20%;
             justify-content: center;

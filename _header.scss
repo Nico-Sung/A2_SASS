@@ -65,6 +65,7 @@
 
     &__login-btn {
         @include mixins.main-btn;
+        @include mixins.main-btn-hover;
     }
 
     ////////////////////////
@@ -96,11 +97,13 @@
 
         &-button--primary {
             @include mixins.secondary-btn;
+            @include mixins.secondary-btn-hover;
             margin-right: 1em;
         }
 
         &-button--secondary {
             @include mixins.main-btn;
+            @include mixins.main-btn-hover;
         }
 
         &-image {
